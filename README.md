@@ -1,4 +1,4 @@
-To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat_Silence_Detection). You can access it by clicking on "View on GitHub" on top.
+To access scripts and supporting documents, download the whole repository from [here]([https://github.com/JalalAl-Tamimi/Praat-f0-Accurate-Estimation](https://github.com/JalalAl-Tamimi/Praat_Silence_Detection)). You can access it by clicking on "View on GitHub" on top.
 
 The script "detect_silence_speech.praat" provides an automated method to detect silence based on a sound file. 
 This uses the following specifications:
