@@ -8,6 +8,8 @@ This uses the following specifications:
 4. Intensity range is obtained (between 5-95%); SD is also computed
 5. The silence threshold is estimated based on range - SD/2
 
+Pauses are marked with "xxx"; speech with an empty interval
+
 An outputted TextGrid is provided.
 
 Make sure to cite this github repo when using this script
