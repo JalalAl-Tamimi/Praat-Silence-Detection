@@ -1,3 +1,5 @@
+To cite, use: [![DOI](https://zenodo.org/badge/515152882.svg)](https://zenodo.org/badge/latestdoi/515152882)
+
 To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-Silence-Detection). You can access it by clicking on "View on GitHub" on top.
 
 The script "detect_silence_speech.praat" provides an automated method to detect silence based on a sound file. 
