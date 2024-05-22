@@ -6,7 +6,7 @@ The script "detect_silence_speech.praat" provides an automated method to detect 
 This uses the following specifications:
 1. The Two-pass method for estimation f0 range adapted to each speaker; uses the cross-correlation method
 2. The the range of f0 (between 5-95%) is obtained
-3. Intensity is then computed based on the 95% f0
+3. Intensity is then computed based on the lowest value for f0 obtained at 5% (f0 floor)
 4. Intensity range is obtained (between 5-95%); SD is also computed
 5. The silence threshold is estimated based on range - SD/2
 
