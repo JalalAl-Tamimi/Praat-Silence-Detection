@@ -16,7 +16,7 @@ if directory1$ = ""
 	directory1$ = chooseDirectory$("Select your directory of sound files and TextGrids")
 endif
 
-Create Strings as file list: "list", "'directory1$'\*.wav"
+Create Strings as file list: "list", "'directory1$'/*.wav"
 
 numberOfFiles = Get number of strings
 
@@ -25,7 +25,7 @@ for i from 1 to numberOfFiles
 	select Strings list
    	fileName$ = Get string: i
 
-	Read from file: "'directory1$'\'fileName$'"
+	Read from file: "'directory1$'/'fileName$'"
 	name$ = selected$ ("Sound")
 	noprogress To Pitch (raw cross-correlation): 0.005, 50, 800, 15, "yes", 0.03, 0.45, 0.01, 0.35, 0.14
 	q1_f0 = Get quantile: 0, 0, 0.05, "Hertz"
